@@ -1,15 +1,15 @@
 
 import './App.css'
-
+import Connexion from './connexion'
 function App() {
   
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Connexion />
     </>
   )
 }
+
+
 
 export default App
