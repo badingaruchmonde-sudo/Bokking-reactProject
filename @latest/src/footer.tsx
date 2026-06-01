@@ -1,13 +1,13 @@
 
-import instagram from './assets/instagram.png';
-import facebok from './assets/facebok.png';
-import linkedin from './assets/linkedin.png';
-import github from './assets/github.png';
+import instagram from './assets/components/icons8-instagram-50.png'
+import facebok from './assets/components/icons8-facebook-50.png';
+import linkedin from './assets/components/icons8-linkedin-50.png';
+import github from './assets/components/icons8-github-50.png';
 
 export default function Footer() {
   return (
     <>      
-    <footer className="bg-[#000000] text-white py-10 px-6">
+    <footer className="bg-[#000000] text-white py-10 px-6 mt-30">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
 
         
