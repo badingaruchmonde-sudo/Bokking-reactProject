@@ -1,4 +1,4 @@
-import star from './assets/components/icons8-star-48.png'
+import star from './assets/icons8-star-50.png'
 
 interface ImageDeco{
     img : string;

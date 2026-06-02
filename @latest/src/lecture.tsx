@@ -1,8 +1,8 @@
-import star from './assets/components/icons8-star-48.png'
-import Arrowdown from './assets/components/icons8-arrow-down-50.png'
-import img1 from './assets/components/img1.jpg'
-import next from './assets/components/icons8-next-page-50.png'
-import back from './assets/components/icons8-back-to-50.png'
+import star from './assets/icons8-star-50.png'
+import Arrowdown from './assets/icons8-arrow-down-50.png'
+import img1 from './assets/img1.jpg'
+import next from './assets/icons8-arrow-right-50.png'
+import back from './assets/icons8-arrow-left-64.png'
 
 interface myLecture{
     image:string;
@@ -19,7 +19,7 @@ export default function Lecture(props:myLecture){
                 <div className="flex justify-start ml-[10%] gap-4">
                     <img className="h-[350px] w-[280px] p-3 border border-[#5C3A1E] "src={props.image}/>
 
-                    <div className="flex flex-col gap-7">
+                    <div className="flex flex-col gap-6">
                         <h1 className="text-5xl text-[#5C3A1E]">{props.titre}</h1>
                         <p className="w-[50%]">{props.des}</p>
 
@@ -36,7 +36,7 @@ export default function Lecture(props:myLecture){
                                                 
                                             </div>
                                             <p className="text-bold text-center flex flex-wrap gap-x-1"><span className="font-thin">Categorie :</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">Aventure</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">Fantasy</span></p>
-                                            <button className="p-3 max-w-[20%] bg-[#5C3A1E] text-white">Commencer a lire</button>
+                                            <button className="p-3 max-w-[20%] bg-[#5C3A1E] text-white b-6">Commencer a lire</button>
                         
                     </div>
 

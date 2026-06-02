@@ -1,8 +1,8 @@
 
-import instagram from './assets/components/icons8-instagram-50.png'
-import facebok from './assets/components/icons8-facebook-50.png';
-import linkedin from './assets/components/icons8-linkedin-50.png';
-import github from './assets/components/icons8-github-50.png';
+import instagram from './assets/instagram.jpg'
+import facebok from './assets/facebook.jpg';
+import linkedin from './assets/linkedin.jpg';
+import github from './assets/github.jpg';
 
 export default function Footer() {
   return (

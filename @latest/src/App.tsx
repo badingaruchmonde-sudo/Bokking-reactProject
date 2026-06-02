@@ -1,7 +1,7 @@
 import './App.css'
 import Catalogue from './catalogue'
 import Lecture from './lecture'
-import img1 from './assets/components/img1.jpg'
+import img1 from './assets/img1.jpg'
 import Footer from './footer'
 
 function App() {
