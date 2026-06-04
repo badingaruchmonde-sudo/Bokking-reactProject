@@ -1,3 +1,8 @@
-.contentCategorie{
+
+.dropdown .contentCategorie{
   display:none;
+}
+
+.dropdown:hover .contentCategorie{
+  display:block;
 }

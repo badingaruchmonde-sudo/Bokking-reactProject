@@ -23,17 +23,18 @@ export default function Catalogue(){
 
         <section >
 
-            <div className=' flex mt-15 justify-evenly'>
-                <Logo image={book} des="Decouverte"/>
-                <Logo image={free} des="Gratuit"/>
-                <Logo image={valid} des="Approuvé"/>
-            </div>
 
-            <div className='flex flex-col items-center text-center mt-20 px-4'>
-                <h1 className='text-4xl font-semibold text-[#5C3A1E]'>À propos de Nous</h1>
+            <div className='flex flex-col items-center text-center mt-30 py-auto px-auto  '>
+                <h1 className='text-5xl font-semibold font-serif text-[#5C3A1E]'>À propos de Nous</h1>
+
+                <div className=' flex mt-15  justify-center gap-13'>
+                    <Logo image={book} des="Decouvrir"/>
+                    <Logo image={free} des="Gratuit"/>
+                    <Logo image={valid} des="Satisfait"/>
+                </div>
 
                 <p className='max-w-2xl md:max-w-[60%] lg:max-w-[40%] mt-10 leading-relaxed text-gray-700 font-thin'>
-                    <span className='font-bold text-orange-400'>Booking</span> est une interface permettant au plus grand monde d'accéder aux joies de la lecture ! Totalement gratuit, vous pouvez vous plonger
+                    <span className='font-bold text-[#F59127]'>Booking</span> est une interface permettant au plus grand monde d'accéder aux joies de la lecture ! Totalement gratuit, vous pouvez vous plonger
                     dans vos contes et récits favoris sans dépenser le moindre centime. De plus, nous vous tenons à jour sur les sorties de vos 
                     auteurs et autrices préférées. Sans limite d'âge, profitez d'un moment de détente en lisant vos fables préférées et bandes dessinées,
                     ou encore faites tourner vos méninges en essayant de trouver qui est le coupable avant le héros de votre roman policier favori. Lancez-vous
@@ -42,7 +43,7 @@ export default function Catalogue(){
             </div>
             
 
-            <div className=" flex justify-center mt-20">
+            <div className="dropdown flex justify-center mt-20">
                 <div className=" gap-x-20 mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-y-5">
                     <div className='dropdown '>
                             <button className="categorieButton w-[100%] flex items-center gap-2 border border-[#5C3A1E] px-6 py-2 rounded-xl transition hover:bg-[#5C3A1E] hover:text-white group">
@@ -54,7 +55,7 @@ export default function Catalogue(){
                     />
                 </button>
 
-                <div className='contentCategorie p-10 bg-gray-200 rounded-xl'>
+                <div className='contentCategorie p-6 bg-gray-200 rounded-xl absolute'>
                     <ul>
                         <li><button className='w-[100%] duration-200 ease-in hover:cursor-pointer hover:bg-[#5C3A1E] p-2 rounded-lg hover:text-white'><a href='#'>Action</a></button></li>
                         <li><button className='w-[100%] duration-200 ease-in hover:cursor-pointer hover:bg-[#5C3A1E] p-2 rounded-lg hover:text-white'><a href='#'>Aventure</a></button></li>
@@ -72,7 +73,7 @@ export default function Catalogue(){
                 <button className="border border-[#5C3A1E] px-10 py-2 rounded-xl transition hover:bg-[#5C3A1E] hover:text-white">Top du moment</button>
                 <div className="relative flex items-center">
                     <input 
-                        className="border border-[#5C3A1E] rounded-xl w-[340px] py-2 pl-10 pr-4 text-gray-600 focus:outline-none focus:ring-2 focus:ring-[#5C3A1F]" 
+                        className="border border-[#5C3A1E] rounded-xl w-[340px] py-2 pl-10 pr-4 text-gray-600 focus:outline-none focus:ring-2 focus:ring-[#F59127]" 
                         type="text" 
                         placeholder="Search..."
                     />

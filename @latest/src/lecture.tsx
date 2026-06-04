@@ -3,6 +3,7 @@ import Arrowdown from './assets/icons8-arrow-down-50.png'
 import img1 from './assets/img1.jpg'
 import next from './assets/icons8-arrow-right-50.png'
 import back from './assets/icons8-arrow-left-64.png'
+import page1 from './assets/page1.jpg'
 
 interface myLecture{
     image:string;
@@ -46,8 +47,8 @@ export default function Lecture(props:myLecture){
 
             </div>
 
-            <div className="flex justify-evenly ">
-                    <div className="h-fit-content p-2 w-[35%] bg-gray-200 flex flex-col items-center gap-10">
+            <div className="flex justify-evenly  ">
+                    <div className="h-auto p-2 w-[35%] bg-gray-200 flex flex-col items-center gap-10">
                         <p className="mt-10 text-2xl font-bold">{props.chap}</p>
                         <button className="border border-2-[#5C3A1E] px-6 py-2 rounded-xl transition hover:bg-[#5C3A1E] hover:text-white hover:cursor-pointer font-thin">{props.chapNumber}</button>
                     </div>
@@ -75,12 +76,12 @@ export default function Lecture(props:myLecture){
                         <div className='w-[85%] h-160 bg-white flex justify-center items-center justify-evenly'>
                             <img className='item h-[450px] w-[45%] shadow-2' src={img1}/>
                             <div className='h-[450px] w-[1px] bg-black'></div>
-                            <img className=' item h-[450px] w-[45%] shadow-2' src={img1}/>
+                            <img className=' item h-[450px] w-[45%] shadow-2' src={page1}/>
                         </div>
 
-                        <div className='relative block p-1'>
-                                <button><img className='hover:cursor-pointer h-9 hover:h-10 duration-300 ease-in' src={back}/></button>
-                                <button><img className='hover:cursor-pointer h-9 hover:h-10 duration-300 ease-in' src={next}/></button>
+                        <div className='relative block flex gap-9'>
+                                <button><img className='hover:cursor-pointer h-9  duration-300 ease-in bg-[#F59127] rounded-full ' src={back}/></button>
+                                <button><img className='hover:cursor-pointer h-9  duration-300 ease-in bg-[#F59127]  rounded-full' src={next}/></button>
                         </div>
                         
                     </div>
