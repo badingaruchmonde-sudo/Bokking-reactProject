@@ -17,8 +17,8 @@ export default function Lecture(props:myLecture){
     return(
         <div className=" flex flex-col gap-10">
             <div className="w-full h-fit-content bg-gray-300 mt-20 p-3 flex items-center">
-                <div className="flex justify-start ml-[10%] gap-4">
-                    <img className="h-[350px] w-[280px] p-3 border border-[#5C3A1E] "src={props.image}/>
+                <div className="flex justify-start ml-[10%] gap-10   ">
+                    <img className=" h-[350px] w-[280px] p-3 border border-[#5C3A1E] "src={props.image}/>
 
                     <div className="flex flex-col gap-6">
                         <h1 className="text-5xl text-[#5C3A1E]">{props.titre}</h1>
@@ -37,7 +37,7 @@ export default function Lecture(props:myLecture){
                                                 
                                             </div>
                                             <p className="text-bold text-center flex flex-wrap gap-x-1"><span className="font-thin">Categorie :</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">Aventure</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">Fantasy</span></p>
-                                            <button className="p-3 max-w-[20%] bg-[#5C3A1E] text-white b-6">Commencer a lire</button>
+                                            <button className="p-3 w-[20%] bg-[#5C3A1E] text-white b-6">Commencer a lire</button>
                         
                     </div>
 

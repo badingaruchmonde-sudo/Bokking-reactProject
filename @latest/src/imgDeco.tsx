@@ -14,14 +14,14 @@ export default function ImgDec (props : ImageDeco){
 
             <div className=" flex flex-col w-[94%]">
 
-                <div className="flex flex-col justify-center items-center p-6 bg-white mt-4 rounded-b-xl gap-4">
+                <div className="flex flex-col justify-center  p-6 bg-white mt-4 rounded-b-xl gap-4">
                      <h1 className="text-black text-2xl font-bold">{props.titre}</h1>
                     <div className="flex justify-evenly">
-                        <p className="text-bold text-center flex flex-wrap gap-x-1"><span className="font-thin">Categorie :</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">{props.categorie1}</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">{props.categorie2}</span></p>
+                        <p className="text-bold text-center flex flex-wrap gap-x-1 gap-y-1"><span className="font-thin">Categorie :</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">{props.categorie1}</span> <span className="border border-orange-300 px-3 py-1 rounded-lg">{props.categorie2}</span></p>
                     </div>
                     <div className="flex">
                         <p> Note : </p>
-                        <div className='flex h-[22px] w-[18px] '>
+                        <div className='flex h-[22px] w-[18px]'>
                             <img src={star}/>
                             <img src={star}/>
                             <img src={star}/>

@@ -14,7 +14,8 @@ export default function Navbar(){
                     <li className='transition ease-in hover:text-[#F59127]'><a href="#">Accueil</a></li>
                     <li className='transition ease-in hover:text-[#F59127]'><a href="#">About Us</a></li>
                     <li className='transition ease-in hover:text-[#F59127]'><a href="#">Catalogue</a></li>
-                    <li className='transition ease-in hover:text-[#F59127]'><a href="#">Mes Livres</a></li>
+                    <li className='transition ease-in hover:text-[#F59127]'><a href="#">Lecture</a></li>
+                    <li className='transition ease-in hover:text-[#F59127]'><a href="#">Avis</a></li>
                 </ul>
                 <button className="px-6 py-2 font-bold bg-[#F59127] rounded-lg text-white">
                     <a href="#">Connexion</a>
